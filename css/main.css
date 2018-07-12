@@ -156,6 +156,7 @@ ul {
 
 .CV a {
 	text-decoration: none;
+	font-weight: lighter;
 }
 
 
@@ -180,6 +181,10 @@ ul {
 	margin-top: 5px;
 }
 
+.work > .workText a {
+	color: #20B2AA
+}
+
 .work > .workImg {
 	width: 68%;
 	float: right;
@@ -197,6 +202,10 @@ ul {
 	top: 85px;
 	right: 0;
 	text-align: right;
+}
+
+.work2 > .workText a {
+	color: #20B2AA
 }
 
 .work2 > .workText > .underline {
