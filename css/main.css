@@ -1,0 +1,252 @@
+/*-------- Global ---------*/
+*	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+.clearfix::after {
+	content:"";
+	clear: both;
+	display: table;
+}
+
+html	{
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 100%;
+}
+
+body	{
+	width: 70%;
+	margin: auto;
+	background-image: url(images/BG.png);
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.green {
+	color: #20B2AA;
+}
+
+h1	{
+	font-size: 40px;
+	font-weight: 400;
+	color: 	#50E3C2;
+}
+
+h2	{
+	font-size: 35px;
+	font-weight: 400;
+	color: 	#50E3C2;
+}
+
+h3 {
+	font-size: 35px;
+	font-weight: 400;
+	color: 	#808080;
+
+}
+
+h5	{
+	font-size: 20px;
+	margin-top: 10px;
+	color: 	#50E3C2;
+}
+
+p 	{ 
+	color: 	#808080;
+	font-weight: 100;
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+
+/*-------- Navigation ---------*/
+
+.nav {
+	display: flex;
+	align-items: center;
+	height: 100px;
+}
+
+.contactMe, .navIcons {
+	flex: 1;
+}
+
+.navIcons {
+	text-align: right;
+}
+
+.navIcons a, .contactMe a, .contactMe img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.navIcons a {
+	margin-left: 40px
+}
+
+.contactMe a {
+	color: 	#696969;
+	text-decoration: none;
+}
+
+.contactMe img {
+	margin-right: 10px;
+}
+
+/*-------- Landing ---------*/
+
+.landing {
+	height: 100vh;
+	position: relative;
+}
+
+.landingWrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+ul {
+	list-style: none;
+	margin-top: 30px;
+	line-height: 30px;
+}
+
+.landingL {
+	margin-top: 4em;
+}
+
+.scroll {
+	position: absolute;
+	bottom: 180px;
+	left: 0;
+	right: 0;
+	margin: auto;
+
+}
+
+/*-------- Skills ---------*/
+.skills {
+	text-align: center;
+	margin-bottom: 15em;
+}
+
+.skills p {
+	margin-bottom: 30px;
+	line-height: 27px;
+}
+
+.skills img {
+	width: 180px;
+	margin: 10px;
+	margin-top: 30px;
+}
+
+.CV {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.CV a {
+	text-decoration: none;
+}
+
+
+
+/*-------- Work 01 ---------*/
+.work {
+	width: 100%;
+	position: relative;
+	margin-bottom: 20em;
+}
+
+.work > .workText {
+	position: absolute;
+	top: 85px;
+}
+
+.work > .workText > .underline {
+	display: block;
+	background-color: #50E3C2;
+	height: 3px;
+	width: 61px;
+	margin-top: 5px;
+}
+
+.work > .workImg {
+	width: 68%;
+	float: right;
+}
+
+/*-------- Work 02 ---------*/
+.work2{
+	width: 100%;
+	position: relative;
+	margin-bottom: 20em;
+}
+
+.work2 > .workText {
+	position: absolute;
+	top: 85px;
+	right: 0;
+	text-align: right;
+}
+
+.work2 > .workText > .underline {
+	display: block;
+	background-color: #50E3C2;
+	height: 3px;
+	width: 61px;
+	margin-top: 5px;
+	float: right;
+}
+
+.work2 > .workImg {
+	width: 68%;
+	float: left;
+}
+
+
+
+/*-------- Footer ---------*/
+.footer {
+	background-color: #50E3C2; 
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: 350px;
+	height: 130px;
+	padding-bottom: 5em;
+	text-align: center;
+	margin-left: -21%;
+	margin-right: -21%;
+}
+
+.footer a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.underlineSmall {
+	display: block;
+	height: 3px;
+	width: 41px;
+	margin: 5px auto 0 auto;
+	background-color: #FFFFFF;
+	margin-bottom: 100px;
+}
+
+.footnote p {
+	font-size: 13px;
+    float: right;
+    padding-right: 1em;
+    color: #FFFFFF;
+}
+
+
