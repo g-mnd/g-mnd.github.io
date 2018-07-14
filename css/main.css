@@ -23,10 +23,19 @@ html	{
 body	{
 	width: 70%;
 	margin: auto;
+	margin-top: 100px;
 	background-image: url(images/BG.png);
 	background-position: top;
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: 100%;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
 }
 
 .green {
@@ -69,10 +78,18 @@ p 	{
 /*-------- Navigation ---------*/
 
 .nav {
+	width: 70%;
+	margin: 0 auto;
+
 	display: flex;
 	align-items: center;
 	height: 100px;
 	background-color: #FFFFFF;
+
+	position: fixed;
+	top: 0;
+
+	z-index: 1;
 }
 
 .contactMe, .navIcons {
@@ -253,7 +270,7 @@ ul {
 }
 
 .footnote p {
-	font-size: 13px;
+	font-size: 15px;
     float: right;
     padding-right: 1em;
     color: #FFFFFF;
